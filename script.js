@@ -10,7 +10,9 @@ for (let char of str) {
         res = char;
 		return res
         break;
-    }
+    }else{
+		return 'null'
+	}
 }
 }
 const input = prompt("Enter a string");
